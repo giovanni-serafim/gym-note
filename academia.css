@@ -1,0 +1,81 @@
+@charset "UTF=8";
+body{
+    background-color: #bebfbc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+header{
+    margin-bottom: 2em;
+    text-align: center;
+    background-color: #594731;
+    color: white;
+    padding: 0.01em;
+}
+
+nav{
+    margin: 10px;
+    text-align: center;
+    min-width: 470px;
+}
+
+nav > a{
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(to right, #f0bf2d , #dba70c );
+    margin: 2%;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+.topicos{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.topicos a {
+    display: inline-block;
+    max-width: 30%;
+    margin: 3%;
+    width: 25%;    
+    
+}
+
+.img-topico{
+    position: relative;
+    width: 100%;
+
+    
+}
+
+.img-topico > img{
+    
+   width: 100%;
+    height: auto;
+    border-radius: 2%;
+    box-shadow: 1px 1px 10px black;
+}
+
+.img-topico > span {
+    position: absolute;
+    width: 94%;
+    bottom: 10px;         /* Coloca o texto 10px acima da parte inferior */
+    left: 50%;            /* Centraliza o texto horizontalmente */
+    transform: translateX(-50%); /* Ajusta para que o texto fique realmente centralizado */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente atrás do texto */
+    color: white;         /* Cor do texto */
+    padding: 5px 10px;    /* Adiciona algum espaçamento ao redor do texto */
+    border-radius: 5px;   /* Arredonda os cantos do fundo do texto */
+    font-size: 1.2rem; 
+}
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #7777749a;
+}
